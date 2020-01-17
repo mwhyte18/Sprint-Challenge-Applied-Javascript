@@ -12,10 +12,11 @@
 function Header() {
     const header = document.createElement('div');
     header.classList.add('header');
-
+   
     const date = document.createElement('span');
     date.classList.add('date');
     header.appendChild(date);
+    date.textContent = 'SMARCH 28, 2019';
 
     const titleH1 = document.createElement('h1');
     titleH1.textContent = 'Lambda Times';

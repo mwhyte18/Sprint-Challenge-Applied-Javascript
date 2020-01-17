@@ -30,13 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+The DOM takes the HTML file as instructions containing every element on the page, and parses them into a model of how the page runs and looks with javascript.
+
 2. What is an event?
+
+An event is an action which occurs in the DOM. Events can be triggered by many ways, including user action (like clicking or hovering) as well as through an API for an asynchronous task.
 
 3. What is an event listener?
 
+Event Listeners are a way for DOM elements to accept events by adding them onto elements in javascript. 
+
 4. Why would we convert a NodeList into an Array?
 
+NodeList are the elements you get back with querySelecterAll(), and do not allow use of any of the helpful methods arrays have, such as forEach, filter and many more, which is why you convery a nodeList into an array.
+
 5. What is a component?
+
+Components are small pieces of logic that we make, allowing for simple reusable code that makes the code a lot dryer. Without components we would have to manually write all the code, which in many examples can become very repetitive and unnecissary. It helps a lot with fetching data from an API and repeating the same logic over that data.
 
 ### Git Set up
 
